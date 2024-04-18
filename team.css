@@ -1,0 +1,22 @@
+ul, ol {
+    list-style: none;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background: #fff;
+}
+.team-class {
+    
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #000;
+}
+.detali-class {
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #000;
+}
+        

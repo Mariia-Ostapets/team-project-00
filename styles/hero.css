@@ -1,0 +1,62 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.button {
+  cursor: pointer;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* ======= hero ======= */
+.page-hero {
+  background-image: url(/img/hero.img/phone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: hsl(237, 64%, 6%);
+  background-size: cover;
+}
+.hero-container {
+  padding-top: 243px;
+  padding-bottom: 158px;
+  padding-left: 16px;
+}
+.hero-title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+.second-hero-title {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.hero-list {
+  color: #fff;
+  margin-bottom: 73px;
+}
+.hero-link:not(:last-child) {
+  margin-bottom: 14px;
+}
+.button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 11px 60px;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}

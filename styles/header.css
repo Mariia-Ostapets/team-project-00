@@ -1,5 +1,4 @@
 /* GLOBAL STYLES */
-
 body {
   font-family: "Inter", sans-serif;
   color: #000000;
@@ -31,13 +30,14 @@ ol {
 .page-header {
   backdrop-filter: blur(35px);
   background: linear-gradient(
-    99deg,
-    rgba(0, 197, 235, 0.3) 0%,
-    rgba(181, 68, 254, 0.3) 100%
-  );
+      99deg,
+      rgba(0, 197, 235, 0.3) 0%,
+      rgba(181, 68, 254, 0.3) 100%
+    ),
+    #06071b;
 }
 .page-logo {
-  font-family: "Inter", sans-serif;
+  display: inline-block;
   font-weight: 400;
   color: #fff;
   font-size: 28px;
@@ -48,8 +48,10 @@ ol {
   gap: 40px;
 }
 .menu-nav-list-item {
-  font-family: "Inter", sans-serif;
+  display: inline-block;
   font-weight: 400;
   color: #fff;
   font-size: 12px;
+  padding-top: 28px;
+  padding-bottom: 29px;
 }

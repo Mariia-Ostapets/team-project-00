@@ -28,6 +28,10 @@ ol {
   margin-right: auto;
 }
 .page-header {
+  position: fixed;
+  left: 0;
+  top: 26px;
+  width: 100%;
   backdrop-filter: blur(35px);
   background: linear-gradient(
       99deg,
@@ -36,6 +40,7 @@ ol {
     ),
     #06071b;
 }
+
 .page-logo {
   display: inline-block;
   font-weight: 400;

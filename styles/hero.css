@@ -23,11 +23,16 @@ body {
 }
 /* ======= hero ======= */
 .page-hero {
-  background-image: url(/img/hero.img/phone.png);
+  position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-color: hsl(237, 64%, 6%);
   background-size: cover;
+}
+.hero-phone-icon {
+  position: absolute;
+  right: 45.87px;
+  top: 167px;
 }
 .hero-container {
   padding-top: 243px;
@@ -47,11 +52,15 @@ body {
   color: #fff;
 }
 .hero-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
   color: #fff;
   margin-bottom: 73px;
 }
-.hero-link:not(:last-child) {
-  margin-bottom: 14px;
+.hero-link {
+  display: flex;
+  gap: 4px;
 }
 .button {
   color: #fff;
